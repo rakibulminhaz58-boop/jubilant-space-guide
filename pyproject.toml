@@ -1,0 +1,31 @@
+[project]
+name = "codespaces-blank"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "rakibulminhaz58-boop", email = "rakibulminhaz58@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.7",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.3",
+    "langchain-google-genai>=4.4.2",
+    "langchain-groq>=1.1.3",
+    "langchain-openai>=1.7.3",
+    "langchain-tavily>=0.2.18",
+    "langchain-text-splitters>=1.1.3",
+    "langgraph>=1.2.19",
+    "pypdf>=6.21.4",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+codespaces-blank = "codespaces_blank:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
